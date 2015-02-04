@@ -701,16 +701,18 @@ h6 {
    NAVIGATION
    ========================================================================== */
 nav {
-  background: #2b2b2b;
+  background: #FFFFFF;
+  padding: 40px 0;
+  border-bottom: 2px solid #be2e2b;
 }
 .nav-link {
-  color: #e7e7e7;
+  color: #222222;
 }
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
-  color: #fff;
+  color: #be2e2b;
 }
 /* =============================================================================
    HEADER
@@ -721,6 +723,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
+  padding: 210px 0;
 }
 .logo-link,
 .tagline,
@@ -732,18 +735,18 @@ nav {
   font-weight: normal;
 }
 .call-action-area .price {
-  color: #fddd52;
+  color: #FFFFFF;
 }
 .call-action-area .call-action-link,
 .btn {
   background-color: #fddd52;
-  background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
-  background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  color: #2b2b2b;
+  background-image: -moz-linear-gradient(top, #be2e2b 30%, #be2e2b 150%);
+  background-image: -webkit-linear-gradient(top, #be2e2b 30%, #be2e2b 150%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#be2e2b', endColorstr='#be2e2b');
+  background-image: linear-gradient(top, #be2e2b 30%, #be2e2b 150%);
+  color: #FFFFFF;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), inset 0 -2px 3px 0 #be2e2b, inset 0 1px 0 0 #be2e2b;
   border-radius: 40px;
 }
 .github-link {
@@ -759,7 +762,7 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: #be2e2b;
 }
 .content a:hover,
 .content a:focus {
@@ -874,6 +877,16 @@ nav {
 .form textarea:focus {
   border-color: #aaa;
   outline: 0;
+}
+.logo-python-mg {
+  background-image: url("../img/logo-python-mg.png");
+  display: block;
+  height: 70px;
+  position: fixed;
+  right: 410px;
+  top: 10px;
+  width: 70px;
+  z-index: 20;
 }
 /* =============================================================================
    Media Queries

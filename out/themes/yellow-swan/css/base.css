@@ -2,7 +2,7 @@
    MAIN LAYOUT
    ========================================================================== */
 .wrapper {
-  margin: 30px auto;
+  margin: 0 auto;
   width: 960px;
   position: relative;
 }
