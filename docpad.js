@@ -7,15 +7,15 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Uai Python",
+      description: "Evento de Python em Minas Gerais",
+      date: "30 de Agosto",
       // If your event is free, just comment this line
       price: "$100",
-      venue: "Coco Bongo",
+      venue: "UFMG",
       address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      city: "Belo horizonte",
+      state: "Minas Gerais"
     },
 
     // The Call To Action button at the header,
@@ -52,13 +52,13 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre o evento",
+      location: "Localização",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
+      sponsors: "Patrocinadores",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
