@@ -9,19 +9,19 @@ module.exports = {
     conf: {
       name: "Uai Python",
       description: "Evento de Python em Minas Gerais",
-      date: "30 de Agosto",
+      date: "Agosto",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "UFMG",
-      address: "Boulevard Kukulcan, 30",
+      //price: "$100",
+      venue: "Local a definir",
+      address: "UFMG",
       city: "Belo horizonte",
-      state: "Minas Gerais"
+      state: "Minas Gerais, Brasil",
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
+        text: "Pré-Inscrição!",
         link: "http://eventick.com.br"
     },
 
